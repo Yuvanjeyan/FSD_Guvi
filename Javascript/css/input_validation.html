@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+            input:enabled{
+                border: 2px solid green;
+            }
+            input:disabled{
+                border: 2px solid red;
+            }
+            input:required{
+                border: 2px solid lightcoral;
+            }
+            input:valid{
+                border: 2px solid greenyellow;
+            }
+            input:invalid{
+                border: 2px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <input type = "text" placeholder="Enter your name" required><br><br>
+        <input type = "email" placeholder="Enter your email"><br><br>
+        <input type= "text" value="554856135" disabled><br><br>
+        <input type = "checkbox" id = "check1" checked>
+        <label for = "check1">Checked option</label><br><br>
+        <input type = "checkbox" id = "check2">
+        <label for = "check2">UnChecked option</label><br><br>
+        <button>Submit</button>
+    </body>
+</html>
